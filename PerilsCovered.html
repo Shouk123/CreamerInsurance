@@ -1,0 +1,80 @@
+<!--
+*****************************************************************************
+Title: Sales Page-Creamer Insurance Agency
+Use: Sales Page
+Author: Stacy Houk
+School/Term: Southern Illinois University, Spring 2021
+Developed: April 15, 2021
+Revised: April 22, 2021
+Tested: April 22, 2021; Passed on Firefox, Opera, and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+     <!--Navigation Menu-->
+<nav id="nav_menu">
+    <ul>
+        <li><a class="scroll" href="index.html" >Home</a></li>
+        <li><a class="scroll" href="CropsCovered.html">Crops Covered</a></li>
+        <li><a class="scroll" href="PerilsCovered.html" class="current">Perils Covered</a></li>
+        <li><a class="scroll" href="AboutUs.html">About Us</a></li>
+        <li><a class="scroll" href="contact.html" class="lastitem">Contact Us</a></li>
+    </ul>
+    </nav>
+ 
+<head><!--Head section begin-->
+    <meta charset="utf-8"> 
+    <meta name="description" content="Welcome to Houk's Bicycles-Sales Page">
+    <meta name="keywords" content="Sales Page">
+    
+    <link rel="stylesheet" href="CSS/InsWebPage.css">
+    <link rel="stylesheet" href="SlickNav-master/scss/slicknav.css">
+    
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/gif" href="images/favicon-16x16.png">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min,js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo: ="#mobile_menu"});
+        });
+    </script>
+</head><!--Head section end-->
+<body>
+    <header>
+        <title>Creamer Insurance Agency</title>
+        <h1>Perils Covered</h1>
+    </header>
+    
+    <table>
+    <tr>
+        <th>Wind Damage</th>
+        <th>Hail Damage</th>
+        </tr>
+    <tr>
+        <td><p id="winddamage"></p></td>
+        <td><p id="haildamage"></p></td>
+    </tr>
+  
+    <tr>
+    <td>Flood Damage</td>
+    <td>Fire Damage</td>
+  </tr>
+  
+    <tr>
+    <td><p id="flooddamage"></p></td>
+    <td><p id="firedamage"></p></td>
+  </tr>
+    </table>
+<footer>
+<br>
+<p2>    
+Creamer Insurance<br>
+1883 N 950 E Rd<br>
+Assumption, IL 62510<br>
+217-226-4318<br>
+<a href="www.patrickcreamer@hotmail.com">Contact Us</a></p2>
+</footer>
+    
+</body>
+</html>

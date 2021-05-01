@@ -1,0 +1,68 @@
+<!--
+*****************************************************************************
+Title: About Us Page-Creamer Insurance Agency
+Use: About Us Page
+Author: Stacy Houk
+School/Term: Southern Illinois University, Spring 2021
+Developed: April 15, 2021
+Revised: April 22, 2021
+Tested: April 22, 2021; Passed on Firefox, Opera, and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+    <!--Navigation Menu-->
+<nav id="nav_menu">
+    <ul>
+        <li><a class="scroll" href="index.html">Home</a></li>
+        <li><a class="scroll" href="CropsCovered.html">Crops Covered</a></li>
+        <li><a class="scroll" href="PerilsCovered.html">Perils Covered</a></li>
+        <li><a class="scroll" href="AboutUs.html" class="current">About Us</a></li>
+        <li><a class="scroll" href="contact.html" class="lastitem">Contact Us</a></li>
+    </ul>
+    </nav>
+<head><!--Head section begin-->
+    <meta charset="utf-8"> 
+    <meta name="description" content="Creamer Insurance Agency">
+    <meta name="keywords" content="About Us Page">
+    
+    <link rel="stylesheet" href="CSS/InsWebPage.css">
+    <link rel="stylesheet" href="SlickNav-master/scss/slicknav.css">
+    
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/gif" href="images/favicon-16x16.png">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min,js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo: ="#mobile_menu"});
+        });
+    </script>
+    
+    
+</head><!--Head section end-->
+<body>
+    <header>
+        <title>Creamer Insurance Agency</title>
+        <h1>Our History</h1>
+    </header>
+<p>Creamer Insurance has been involved in crop insurance since 1977. We are located in Central Illinois. Our family has been invovled in farming for over 100 years!</p>    
+        <aside>
+        <p><b>Let our insurance cover your assets!</b></p>
+    <div class="image">
+            <img src="images/AboutUs_Barn.jpeg" width=75% height=auto>
+           </div>
+  </aside>
+<p>Our office is located in our home and we are available to server your needs in our office or we can meet you on location. </p>
+<footer>
+<br>
+<p2>    
+Creamer Insurance<br>
+1883 N 950 E Rd<br>
+Assumption, IL 62510<br>
+217-226-4318<br>
+<a href="www.patrickcreamer@hotmail.com">Contact Us</a></p2>
+</footer>    
+
+</body> 
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+*****************************************************************************
+Title: Rental Page-Creamer Insurance Agency
+Use: Rental company page.
+Author: Stacy Houk
+School/Term: Southern Illinois University, Spring 2021
+Developed: April 15, 2021
+Revised: April 22, 2021
+Tested: April 22, 2021; Passed on Firefox, Opera, and Chrome browsers.
+******************************************************************************
+-->
+
+
+<html lang="en-US">
+     <!--Navigation Menu-->
+<nav id="nav_menu">
+    <ul>
+        <li><a class="scroll" href="index.html" >Home</a></li>
+        <li><a class="scroll" href="CropsCovered.html" class="current">Crops Covered</a></li>
+        <li><a class="scroll" href="PerilsCovered.html">Perils Covered</a></li>
+        <li><a class="scroll" href="AboutUs.html">About Us</a></li>
+        <li><a class="scroll" href="contact.html" class="lastitem">Contact Us</a></li>
+    </ul>
+    </nav>
+<head><!--Head section begin-->
+    <meta charset="utf-8"> 
+    <meta name="description" content="Welcome to Houk's Bicycles">
+    <meta name="keywords" content="bicycles,Houk's Bicycle, bikes, rental">
+    <link rel="stylesheet" href="CSS/InsWebPage.css">
+    <link rel="stylesheet" href="SlickNav-master/scss/slicknav.css">
+    
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/gif" href="images/favicon-16x16.png">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min,js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo: ="#mobile_menu"});
+        });
+    </script>
+    
+</head><!--Head section end-->
+<body>
+    <header> <title>Creamer Insurance Agency</title><!--Title-->
+    <h1>Crops Covered</h1> <!--Header One-->
+    <h2>Here is a listing of the crops we cover.</h2><!--Header Two-->
+    <!--Header Three--> </header>
+        <aside>
+        <p><b>Let our insurance cover your assets!</b></p>
+    <div class="image">
+            <img src="images/cropinsurance.png" width=75% height=auto>
+           </div>
+  </aside>
+
+        <table>
+    <tr>
+        <th>Corn</th>
+        <th>Beans</th>
+        </tr>
+    <tr>
+        <td><p id="corncovered"></p></td>
+        <td><p id="beanscovered"></p></td>
+    </tr>
+  
+    <tr>
+    <td>Wheat</td>
+    <td>Alfalfa</td>
+  </tr>
+  
+    <tr>
+    <td><p id="wheatcovered"></p></td>
+    <td><p id="alfalfacovered"></p></td>
+  </tr>
+    </table>
+
+        
+
+
+
+<footer>
+<br>
+<p2>    
+Creamer Insurance<br>
+1883 N 950 E Rd<br>
+Assumption, IL 62510<br>
+217-226-4318<br>
+<a href="www.patrickcreamer@hotmail.com">Contact Us</a></p2>
+</footer>
+        
+    
+
+</body>
+</html>
+    
+        
